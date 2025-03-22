@@ -36,13 +36,13 @@ a.Cab{
     text-decoration: none;
     color: white;
     transition-duration: 0.5s;
-    padding: 5px 10px 5px 10px;
+    padding: 3px 8px
 }
 a.link{
     color: #1A5C38;
     font-weight: bold;
     text-decoration: none;
-    background-color: #46f594;
+    background-color:#C8ECD8;
 }
 a.link::after{
     content: '🔗';
@@ -93,6 +93,7 @@ p.principal{
     text-indent: 30px;
    padding: 15px;
    font-weight: lighter;
+   line-height: 1.5em;
 }
 h2{
     font-family: 'Android';
@@ -131,8 +132,12 @@ section#complemento{
     padding-left: 5px;
     padding-top: 5px;
 }
+li{
+    text-align:left;
+    margin-left: -15px;
+}
 article{
-    padding: 15px;
+    padding: 10px;
     text-indent: 20px;
     margin: auto;
 }
@@ -146,20 +151,12 @@ ul{
     margin-bottom: 10px;
     padding: 10px;
 }
-section#lista{
-    margin: auto;
-}
 aside{
   text-align: center;
   margin-top: 15px;
   background-color: #1A5C38;
   color: white;
   font-family: "Open Sans";
-}
-p#lista{
-    text-align: left;
-    margin: 0px;
-    text-indent: 0px;
 }
 abbr{
     text-decoration: none;
